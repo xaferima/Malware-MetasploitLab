@@ -1,0 +1,974 @@
+# Vietnamese translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-08-14 10:19-0700\n"
+"PO-Revision-Date: 2013-08-14 10:20-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: vi <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#. Error message that is shown to a student when they are using a browser that
+#. does not have JavaScript enabled.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:11
+msgid " JavaScript should be enabled to grade this question. "
+msgstr " Phải bật JavaScript để phân loại câu hỏi này. "
+
+#. Alt text for image representing student progress.
+#. Text shown after an assignment whose review has been completed.
+#. Shown in the student profile page, next to an assessment title. States
+#. whether the assessment has been completed.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:19
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:20
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/course.html:50
+#: experimental/coursebuilder/views/course.html:77
+#: experimental/coursebuilder/views/course.html:78
+#: experimental/coursebuilder/views/course.html:119
+#: experimental/coursebuilder/views/course.html:120
+#: experimental/coursebuilder/views/lesson_navbar.html:15
+#: experimental/coursebuilder/views/lesson_navbar.html:16
+#: experimental/coursebuilder/views/lesson_navbar.html:62
+#: experimental/coursebuilder/views/lesson_navbar.html:63
+#: experimental/coursebuilder/views/review_dashboard.html:49
+#: experimental/coursebuilder/views/student_data_table.html:40
+msgid "Completed"
+msgstr "Ðã hoàn tất"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:24
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:25
+#: experimental/coursebuilder/views/course.html:131
+#: experimental/coursebuilder/views/course.html:132
+#: experimental/coursebuilder/views/lesson_navbar.html:27
+#: experimental/coursebuilder/views/lesson_navbar.html:28
+#: experimental/coursebuilder/views/lesson_navbar.html:74
+#: experimental/coursebuilder/views/lesson_navbar.html:75
+msgid "Not yet started"
+msgstr "Chưa bắt đầu"
+
+#. Displayed next to a question. Indicates that the question is worth 1 point.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:10
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:10
+msgid "1 point"
+msgstr "1 điểm"
+
+#. Displayed next to a question to indicate its point value. In this particular
+#. message, the number of points will be plural.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:13
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:13
+#, python-format
+msgid "%(points)s points"
+msgstr "%(points)s điểm"
+
+#. Text on the button for checking a student's answer.
+#. Text on the button for checking an answer.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:34
+#: experimental/coursebuilder/modules/assessment_tags/templates/question_group.html:20
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:41
+#: experimental/coursebuilder/views/base.html:24
+msgid " Check Answer "
+msgstr " Kiểm tra câu trả lời "
+
+#. Text on the button for requesting a hint to a question.
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:32
+msgid " Hint "
+msgstr " Gợi ý "
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:27
+msgid "Explore Courses"
+msgstr "Khám phá khóa học"
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:32
+#: experimental/coursebuilder/views/base_course.html:62
+msgid "My Courses"
+msgstr "Khóa học của tôi"
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:37
+#: experimental/coursebuilder/views/base_course.html:67
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#. Text for a button on the 'list of courses' page that takes students to a
+#. page where they can view score.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:16
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:49
+msgid "View score"
+msgstr "Xem điểm số"
+
+#. Text for a button on the 'list of courses' page that takes students to the
+#. page for that course.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:21
+msgid "Go to course"
+msgstr "Đi tới khóa học"
+
+#. Registration button on the main course page.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:26
+#: experimental/coursebuilder/views/registration_module.html:7
+#: experimental/coursebuilder/views/registration_module.html:15
+msgid "Register"
+msgstr "Đăng ký"
+
+#. Shown to the student on the page that shows his/her list of courses, when
+#. he/she is not enrolled in courses.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:39
+msgid "You are not currently enrolled in any courses."
+msgstr "Bạn hiện chưa đăng ký bất kỳ khóa học nào."
+
+#. Shown to the student on the page that shows his/her list of courses, when
+#. he/she wants to view all courses.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:45
+msgid "View course list."
+msgstr "Xem danh sách khóa học."
+
+#. Title of the student profile page. Followed by a student's name.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:5
+msgid "Student Profile for"
+msgstr "Hồ sơ học viên của"
+
+#. Table header for the student's name.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:16
+#: experimental/coursebuilder/views/student_data_table.html:21
+msgid "Name"
+msgstr "Tên"
+
+#. Table header for the student's email address. This is a noun.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:21
+#: experimental/coursebuilder/views/student_data_table.html:15
+msgid "Email"
+msgstr "Email"
+
+#. Heading on the profile page shown above table of registered courses.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:29
+msgid "Enrolled Courses"
+msgstr "Khóa học đã đăng ký"
+
+#. Text for representing student progress in a course.
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:44
+#: experimental/coursebuilder/views/base_course.html:74
+msgid "Progress"
+msgstr "Tiến trình"
+
+#. Text on the student profile page which on clicking will take you to unenroll
+#. course page.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:54
+msgid "Withdraw"
+msgstr "Hủy"
+
+#. Label for the input field that allows the student to change the name on
+#. his/her certificate.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:67
+#: experimental/coursebuilder/views/student_profile.html:29
+msgid "New Name"
+msgstr "Tên mới"
+
+#. Text for a button that allows the student to save changes to his/her name
+#. for the certificate.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:78
+#: experimental/coursebuilder/views/student_profile.html:39
+msgid "Change Name"
+msgstr "Thay đổi tên"
+
+#. Displayed in search results; denotes a lesson link.
+#. Navigation breadcrumb.
+#: experimental/coursebuilder/modules/search/resources.py:341
+#: experimental/coursebuilder/views/activity.html:34
+#: experimental/coursebuilder/views/unit.html:38
+msgid "Lesson"
+msgstr "Bài học"
+
+#. Displayed in search results; denotes an announcement link.
+#: experimental/coursebuilder/modules/search/resources.py:691
+msgid "Announcement"
+msgstr "Thông báo"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/modules/search/search.html:5
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#. Status message above search results.
+#: experimental/coursebuilder/modules/search/search.html:17
+#, python-format
+msgid "Results for \"%(query)s\""
+msgstr "Kết quả cho \"%(query)s\""
+
+#. The amount of time the search took, displayed above search results.
+#: experimental/coursebuilder/modules/search/search.html:20
+#, python-format
+msgid "Search took %(num_seconds)s seconds."
+msgstr "Tìm kiếm mất %(num_seconds)s giây."
+
+#. Link to the previous page.
+#: experimental/coursebuilder/modules/search/search.html:31
+msgid "Previous"
+msgstr "Trước"
+
+#. Indicator for current page in search results.
+#: experimental/coursebuilder/modules/search/search.html:36
+#, python-format
+msgid "Page %(number)s of %(total)s"
+msgstr "Trang %(number)s trong tổng số %(total)s"
+
+#. Link to the next page.
+#: experimental/coursebuilder/modules/search/search.html:42
+msgid "Next"
+msgstr "Tiếp theo"
+
+#. The search returned no results.
+#: experimental/coursebuilder/modules/search/search.html:49
+#, python-format
+msgid "No results for \"%(query)s\""
+msgstr "Không có kết quả cho \"%(query)s\""
+
+#. Message displayed on search results page when error occurs.
+#: experimental/coursebuilder/modules/search/search.py:75
+msgid "Search is currently unavailable."
+msgstr "Tìm kiếm hiện không khả dụng."
+
+#. Message shown to the user telling them they have already submitted an item,
+#. and submitting a new item will overwrite their previous item.
+#: experimental/coursebuilder/modules/upload/templates/form.html:17
+msgid "You have already submitted; submit again to replace your previous entry."
+msgstr "Bạn đã gửi, hãy gửi lại để thay thế mục nhập trước đó của bạn."
+
+#. Warning shown to the user telling them that the file they select for upload
+#. should be at most 1MB in size
+#: experimental/coursebuilder/modules/upload/templates/form.html:22
+msgid "Maximum file size is 1MB."
+msgstr "Kích thước tối đa của tệp là 1MB."
+
+#. Shown when a user submits a file successfully.
+#: experimental/coursebuilder/modules/upload/templates/result.html:7
+msgid "Your file has been successfully uploaded."
+msgstr "Tệp của bạn đã được tải lên thành công."
+
+#. Shown to tell the user an error occurred during submission.
+#: experimental/coursebuilder/modules/upload/templates/result.html:10
+msgid "An error occurred."
+msgstr "Đã xảy ra lỗi."
+
+#. Text of the link to take the user back to the previous page.
+#: experimental/coursebuilder/modules/upload/templates/result.html:15
+msgid "Return to the previous page."
+msgstr "Quay lại trang trước."
+
+#. Text of the link to take the user back to the previous page so they can try
+#. submitting again.
+#: experimental/coursebuilder/modules/upload/templates/result.html:18
+msgid "Go back and try again."
+msgstr "Quay lại và thử lại."
+
+#. Title of the webpage.
+#. Navigation breadcrumb.
+#: experimental/coursebuilder/views/activity.html:5
+#: experimental/coursebuilder/views/activity.html:29
+#: experimental/coursebuilder/views/unit.html:5
+#: experimental/coursebuilder/views/unit.html:35
+msgid "Unit"
+msgstr "Đơn vị"
+
+#. Navigation breadcrumb.
+#. Title of the webpage.
+#. Navbar tab.
+#: experimental/coursebuilder/views/activity.html:25
+#: experimental/coursebuilder/views/base_course.html:7
+#: experimental/coursebuilder/views/base_course.html:39
+#: experimental/coursebuilder/views/unit.html:32
+msgid "Course"
+msgstr "Khóa học"
+
+#. Navigation breadcrumb.
+#. Menu item.
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/lesson_navbar.html:85
+#: experimental/coursebuilder/views/lesson_navbar.html:89
+#: experimental/coursebuilder/views/lesson_navbar.html:121
+msgid "Activity"
+msgstr "Hoạt động"
+
+#. Header text for a unit page.
+#. A row in the course schedule.
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:142
+#: experimental/coursebuilder/views/preview.html:34
+#: experimental/coursebuilder/views/unit.html:44
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "Đơn vị %(id)s - %(title)s"
+
+#. Text shown for a unit that has had no lessons added to it yet.
+#: experimental/coursebuilder/views/activity.html:55
+#: experimental/coursebuilder/views/unit.html:59
+msgid "This unit does not contain any lessons."
+msgstr "Đơn vị này không chứa bài học nào."
+
+#. Link to a text version of a lesson video.
+#: experimental/coursebuilder/views/activity.html:84
+#: experimental/coursebuilder/views/unit.html:83
+msgid "Text Version"
+msgstr "Phiên bản văn bản"
+
+#. Text shown for a lesson that has not been made public.
+#: experimental/coursebuilder/views/activity.html:103
+#: experimental/coursebuilder/views/unit.html:125
+msgid "This lesson is not available."
+msgstr "Bài học này chưa khả dụng."
+
+#. Text on the navigation button at the end of a lesson page.
+#: experimental/coursebuilder/views/activity.html:114
+#: experimental/coursebuilder/views/unit.html:135
+msgid "Previous Page"
+msgstr "Trang trước"
+
+#. Text on the navigation button at the end of a lesson page.
+#: experimental/coursebuilder/views/activity.html:120
+#: experimental/coursebuilder/views/unit.html:141
+msgid "Next Page"
+msgstr "Trang tiếp theo"
+
+#. Text on the navigation button at the end of a lesson. It signals that the
+#. student has completed a unit (which is a series of lessons).
+#: experimental/coursebuilder/views/activity.html:123
+#: experimental/coursebuilder/views/unit.html:144
+msgid "End"
+msgstr "Kết thúc"
+
+#. Title of the webpage.
+#. Navbar tab.
+#: experimental/coursebuilder/views/announcements.html:5
+#: experimental/coursebuilder/views/base_course.html:35
+msgid "Announcements"
+msgstr "Thông báo"
+
+#. Shown if the list of announcements is empty.
+#: experimental/coursebuilder/views/announcements.html:25
+msgid "No announcements yet."
+msgstr "Chưa có thông báo nào."
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/assessment.html:5
+msgid "Assessment"
+msgstr "Bản đánh giá"
+
+#. Text shown to students when they visit an assignment page for which the due
+#. date has passed.
+#: experimental/coursebuilder/views/assessment.html:44
+#, python-format
+msgid ""
+"The due date for submitting this assignment has passed. It was due on "
+"%(submission_due_date)s."
+msgstr ""
+"Ngày đến hạn nộp bài tập này đã qua. Ngày đến hạn là "
+"%(submission_due_date)s."
+
+#. Shown to the student on the assignment page.
+#: experimental/coursebuilder/views/assessment.html:49
+msgid "Due date for this assignment: "
+msgstr "Ngày đến hạn của nhiệm vụ này: "
+
+#. Instructions to the student for a peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:59
+msgid ""
+"You may only submit this assignment once. After you submit it, the "
+"assignment will become read-only, and you will not be able to modify your"
+" answers. The answers you submit here will be reviewed by your peers."
+msgstr ""
+"Bạn chỉ có thể gửi nhiệm vụ này một lần. Sau khi gửi, nhiệm vụ sẽ chuyển "
+"sang chế độ chỉ đọc và bạn sẽ không thể sửa đổi các câu trả lời của mình."
+" Các câu trả lời mà bạn gửi ở đây sẽ được bạn bè của bạn đánh giá."
+
+#. Header text for a previously-submitted assignment.
+#: experimental/coursebuilder/views/assessment.html:73
+msgid "Submitted assignment"
+msgstr "Nhiệm vụ đã gửi"
+
+#. Header text for the list of reviews received for an assignment.
+#: experimental/coursebuilder/views/assessment.html:88
+msgid "Reviews received"
+msgstr "Bản đánh giá đã nhận được"
+
+#. Text shown below a student's peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:95
+msgid ""
+"After you have completed the required number of peer reviews for this "
+"assignment, the reviews you have received will appear here."
+msgstr ""
+"Sau khi bạn đã hoàn tất số lượng bài đánh giá bạn bè bắt buộc cho nhiệm "
+"vụ này, các bài đánh giá mà bạn đã nhận được sẽ xuất hiện tại đây."
+
+#. Text shown on a button that allows the student to navigate from an
+#. assignment submission page to the peer review dashboard for that assignment.
+#: experimental/coursebuilder/views/assessment.html:102
+msgid "Go to the review dashboard"
+msgstr "Đi tới trang tổng quan về đánh giá"
+
+#. Text shown below a student's peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:107
+msgid "You have not received any peer reviews yet."
+msgstr "Bạn chưa nhận được bất kỳ bài đánh giá nào từ bạn bè."
+
+#. Text on the button for saving a draft answer.
+#: experimental/coursebuilder/views/assessment_html_content.html:26
+#: experimental/coursebuilder/views/base.html:40
+msgid " Save Draft "
+msgstr " Lưu bản nháp "
+
+#. Text on the button for submitting a peer review.
+#: experimental/coursebuilder/views/assessment_html_content.html:29
+#: experimental/coursebuilder/views/base.html:52
+msgid " Submit Review "
+msgstr " Gửi bản đánh giá "
+
+#. Text on the button for checking a set of answers.
+#: experimental/coursebuilder/views/assessment_html_content.html:37
+#: experimental/coursebuilder/views/base.html:28
+msgid " Check Answers "
+msgstr " Kiểm tra các câu trả lời "
+
+#. Text on the button for submitting answers.
+#: experimental/coursebuilder/views/assessment_html_content.html:44
+#: experimental/coursebuilder/views/base.html:44
+msgid " Submit Answers "
+msgstr " Gửi câu trả lời "
+
+#. Text on the button for showing the answer to a question.
+#: experimental/coursebuilder/views/base.html:32
+msgid " Skip and Show Answer "
+msgstr " Bỏ qua và hiển thị câu trả lời "
+
+#. Text on the button for saving answers to a question.
+#: experimental/coursebuilder/views/base.html:36
+msgid " Save Answers "
+msgstr " Lưu câu trả lời "
+
+#. Text on the button for submitting a peer-reviewed assignment.
+#: experimental/coursebuilder/views/base.html:48
+msgid " Submit Assignment "
+msgstr " Gửi nhiệm vụ "
+
+#. Text to prompt the student to select a multiple-choice answer.
+#: experimental/coursebuilder/views/base.html:56
+msgid " Please click one of the buttons for your answer. "
+msgstr " Vui lòng nhấp vào một trong các nút cho câu trả lời của bạn. "
+
+#. Text appearing after the student has answered all questions correctly.
+#: experimental/coursebuilder/views/base.html:60
+msgid " All your answers are correct! "
+msgstr " Tất cả câu trả lời của bạn đều đúng! "
+
+#. Text appearing after the student has answered all questions correctly.
+#: experimental/coursebuilder/views/base.html:64
+msgid " Number of questions you answered correctly "
+msgstr " Số câu hỏi bạn đã trả lời đúng "
+
+#. Text appearing after the student has submitted an assessment.
+#: experimental/coursebuilder/views/base.html:68
+msgid " You received a score on this assessment of "
+msgstr " Bạn đã nhận được điểm cho lần đánh giá này là "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:72
+msgid " Here are lessons you could review to improve your score "
+msgstr " Đây là các bài học bạn có thể xem lại để cải thiện điểm của mình "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:76
+msgid ""
+" Congratulations! Press the \\'Submit Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" Xin chúc mừng! Hãy nhấn vào nút \\'Gửi câu trả lời\\' để gửi điểm của "
+"bạn. "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:80
+msgid ""
+" Press the \\'Submit Answers\\' button below to save your scores. You can"
+" also edit your answers above before clicking \\'Submit Answers\\'. "
+msgstr ""
+" Hãy nhấn vào nút \\'Gửi câu trả lời\\' ở bên dưới để lưu số điểm của "
+"bạn. Bạn cũng có thể chỉnh sửa câu trả lời của mình trước khi nhấp \\'Gửi"
+" câu trả lời\\'. "
+
+#. Text appearing in a confirmation dialog after the student has tried to
+#. submit an assignment.
+#: experimental/coursebuilder/views/base.html:84
+msgid " Are you sure you want to submit this assignment? "
+msgstr " Bạn có chắc chắn muốn nộp bài tập này không? "
+
+#. Text appearing in a confirmation dialog after the student has tried to
+#. submit a review.
+#: experimental/coursebuilder/views/base.html:88
+msgid " Are you sure you want to submit this review? "
+msgstr " Bạn có chắc chắn muốn nộp bài đánh giá này không? "
+
+#. Text appearing in a confirmation dialog after 'Are you sure you want to
+#. submit this assignment/review?'
+#: experimental/coursebuilder/views/base.html:92
+msgid " You cannot edit or delete it after you have done so. "
+msgstr " Bạn không thể chỉnh sửa hoặc xóa nó sau khi nộp. "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:97
+msgid " Yes, the answer is correct. "
+msgstr " Đúng, câu trả lời chính xác. "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:99
+msgid " No, the answer is incorrect. "
+msgstr " Sai, câu trả lời không chính xác. "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:101
+msgid " The answer is partially correct. "
+msgstr " Câu trả lời đúng một phần. "
+
+#. Text appearing at the bottom of a lesson page after the student asks for it
+#. to be graded.
+#: experimental/coursebuilder/views/base.html:104
+msgid " Your score is: "
+msgstr " Điểm số của bạn là: "
+
+#. Text shown in parentheses next to the student's email address at the
+#. top-right of all course pages, if the student is logged in but not
+#. registered for the course he/she is currently browsing.
+#: experimental/coursebuilder/views/base.html:170
+msgid "Not registered"
+msgstr "Chưa được đăng ký"
+
+#. Navbar text.
+#: experimental/coursebuilder/views/base.html:175
+msgid "Logout"
+msgstr "Ðăng xuất"
+
+#. Navbar text.
+#: experimental/coursebuilder/views/base.html:181
+msgid "Login"
+msgstr "Đăng nhập"
+
+#. Link at the bottom of each page to the privacy and 'Terms and Conditions'
+#. pages.
+#: experimental/coursebuilder/views/base.html:218
+msgid "Privacy & Terms"
+msgstr "Bảo mật và điều khoản"
+
+#. Navbar tab.
+#. Title of the webpage.
+#: experimental/coursebuilder/views/base_course.html:44
+#: experimental/coursebuilder/views/forum.html:5
+msgid "Forum"
+msgstr "Diễn đàn"
+
+#. Navbar tab.
+#: experimental/coursebuilder/views/base_course.html:79
+msgid "Registration"
+msgstr "Đăng ký"
+
+#. This is shown to the student in a popup after registration.
+#: experimental/coursebuilder/views/course.html:6
+msgid ""
+"Thank you for registering for the course. Click the Announcements tab for"
+" important information."
+msgstr ""
+"Cảm ơn bạn đã đăng ký khóa học. Nhấp vào tab Thông báo để nhận thông tin "
+"quan trọng."
+
+#. This is shown to the student in a popup if registrations for the course are
+#. not open.
+#: experimental/coursebuilder/views/course.html:12
+msgid "Registrations for this course are not open."
+msgstr "Khóa học này chưa mở cho đăng ký."
+
+#. This should be interpreted as a noun. It is the title for the course
+#. schedule on the main contents page.
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/preview.html:22
+msgid "Schedule"
+msgstr "Lịch biểu"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/course.html:56
+#: experimental/coursebuilder/views/course.html:89
+#: experimental/coursebuilder/views/course.html:90
+msgid "Not yet submitted"
+msgstr "Chưa gửi"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/views/course.html:83
+#: experimental/coursebuilder/views/course.html:84
+#: experimental/coursebuilder/views/course.html:125
+#: experimental/coursebuilder/views/course.html:126
+#: experimental/coursebuilder/views/lesson_navbar.html:21
+#: experimental/coursebuilder/views/lesson_navbar.html:22
+#: experimental/coursebuilder/views/lesson_navbar.html:68
+#: experimental/coursebuilder/views/lesson_navbar.html:69
+msgid "In progress"
+msgstr "Đang diễn ra"
+
+#. Displayed in the course contents page. Indicates a page to which students
+#. can go to review other students' assignments.
+#. Text for the button on the assignment submission confirmation page.
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/course.html:107
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:30
+msgid "Review peer assignments"
+msgstr "Đánh giá nhiệm vụ của bạn bè"
+
+#. Error text for when a student has submitted a review after the deadline.
+#: experimental/coursebuilder/views/error.html:16
+#, python-format
+msgid ""
+"Your review has not been saved, because it was submitted on %(time_now)s."
+" The deadline for submitting reviews was %(review_due_date)s."
+msgstr ""
+"Bài đánh giá của bạn chưa được lưu do bài đánh giá đó đã được gửi vào "
+"%(time_now)s. Hạn chót để gửi bài đánh giá là %(review_due_date)s."
+
+#. Error text for when a student submits an assignment after the deadline.
+#: experimental/coursebuilder/views/error.html:21
+#, python-format
+msgid ""
+"Your assignment has not been saved, because it was submitted on "
+"%(time_now)s. The deadline for submitting assignments was "
+"%(submission_due_date)s."
+msgstr ""
+"Bài tập của bạn chưa được lưu do bài tập đó đã được gửi vào %(time_now)s."
+" Hạn chót để gửi bài tập là %(submission_due_date)s."
+
+#. Error text for when a student tries to get a new assignment to review before
+#. submitting his/her own assignment.
+#: experimental/coursebuilder/views/error.html:26
+msgid ""
+"You must submit the assignment for this unit before you can request new "
+"assignments to review."
+msgstr ""
+"Bạn phải gửi bài tập cho bài này trước khi bạn có thể yêu cầu đánh giá "
+"bài tập mới."
+
+#. Error text for when a student tries to request a new assignment to review
+#. after the review submission deadline.
+#: experimental/coursebuilder/views/error.html:31
+msgid ""
+"The deadline for submitting reviews has already passed, so you cannot "
+"request a new assignment to review."
+msgstr ""
+"Hạn chót để gửi bài đánh giá đã qua, do đó bạn không thể yêu cầu đánh giá"
+" bài tập mới."
+
+#. Error text for when a student requests a new assignment to review, but needs
+#. to complete more peer reviews first before a new review can be allocated to
+#. him/her.
+#: experimental/coursebuilder/views/error.html:36
+msgid "You must complete all assigned reviews before you can request a new one."
+msgstr ""
+"Bạn phải hoàn tất tất cả bài đánh giá được chỉ định trước khi bạn có thể "
+"yêu cầu bài đánh giá mới."
+
+#. Error text for when a student has already submitted a review, and tries to
+#. submit it again.
+#: experimental/coursebuilder/views/error.html:41
+msgid "You have already submitted this review. Your latest review was not saved."
+msgstr ""
+"Bạn đã gửi bài đánh giá này. Bài đánh giá mới nhất của bạn đã không được "
+"lưu."
+
+#. Text appearing just before an input field containing a student's answer.
+#: experimental/coursebuilder/views/readonly_assessment.html:31
+#: experimental/coursebuilder/views/readonly_assessment.html:35
+msgid "Answer:"
+msgstr "Câu trả lời:"
+
+#. A question in the registration form.
+#: experimental/coursebuilder/views/register.html:25
+msgid "What is your name?"
+msgstr "Tên bạn là gì?"
+
+#. Button at the end of the registration form for a course.
+#: experimental/coursebuilder/views/register.html:41
+msgid "Enroll"
+msgstr "Đăng ký"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/review.html:5
+msgid "Review"
+msgstr "Bản đánh giá"
+
+#. Link to return to the list of peer reviews.
+#: experimental/coursebuilder/views/review.html:43
+msgid "Back to the review dashboard."
+msgstr "Quay lại trang tổng quan về đánh giá."
+
+#. Text shown to students when they visit a review submission page for which
+#. the due date has passed.
+#: experimental/coursebuilder/views/review.html:51
+#, python-format
+msgid ""
+"The due date for submitting this review has passed. It was due on "
+"%(review_due_date)s."
+msgstr ""
+"Ngày đến hạn nộp bài đánh giá này đã qua. Ngày đến hạn là "
+"%(review_due_date)s."
+
+#. Shown to a student who is asked to complete a peer review of another
+#. student's assignment.
+#: experimental/coursebuilder/views/review.html:56
+msgid "Due date for this review: "
+msgstr "Ngày đến hạn của bản đánh giá này: "
+
+#. Instructions to a student who is asked to complete a peer review of another
+#. student's assignment.
+#: experimental/coursebuilder/views/review.html:65
+msgid ""
+"The scores and comments you submit here will be viewed by your peers. "
+"Once you submit your review, you may not edit it."
+msgstr ""
+"Số điểm và nhận xét mà bạn gửi ở đây sẽ được bạn bè của bạn xem. Sau khi "
+"bạn gửi bản đánh giá của mình, bạn không thể chỉnh sửa bản đánh giá đó."
+
+#. Header text for a reviewed assignment.
+#: experimental/coursebuilder/views/review.html:73
+msgid "Reviewed assignment"
+msgstr "Nhiệm vụ đã được đánh giá"
+
+#. Header text for an assignment that a student still needs to review.
+#: experimental/coursebuilder/views/review.html:76
+msgid "Assignment to review"
+msgstr "Nhiệm vụ cần đánh giá"
+
+#. Header text for a review the student has previously submitted.
+#: experimental/coursebuilder/views/review.html:95
+msgid "Submitted review"
+msgstr "Bản đánh giá đã gửi"
+
+#. Header text for a review form that a student has to complete when reviewing
+#. another student's assignment.
+#: experimental/coursebuilder/views/review.html:109
+msgid "Review form"
+msgstr "Biểu mẫu đánh giá"
+
+#. Shown as confirmation to a reviewer that his/her review draft has been
+#. saved.
+#: experimental/coursebuilder/views/review_confirmation.html:15
+msgid "Your review has been saved."
+msgstr "Bản đánh giá của bạn đã được lưu."
+
+#. Shown as confirmation to a reviewer that his/her review draft has been
+#. submitted.
+#: experimental/coursebuilder/views/review_confirmation.html:18
+msgid "Your review has been submitted successfully."
+msgstr "Bản đánh giá của bạn đã được gửi thành công."
+
+#. Text for the button shown on the review submission confirmation page that
+#. allows the student to return to the list of reviews.
+#: experimental/coursebuilder/views/review_confirmation.html:25
+msgid "Back to the review dashboard"
+msgstr "Quay lại trang tổng quan về đánh giá"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/review_dashboard.html:5
+msgid "Review Dashboard"
+msgstr "Trang tổng quan về đánh giá"
+
+#. Header text for a list of assignments that can be reviewed by the student.
+#: experimental/coursebuilder/views/review_dashboard.html:16
+msgid "Assignments for your review"
+msgstr "Nhiệm vụ mà bạn có thể đánh giá"
+
+#. Text shown to students when they visit their list of reviews to be done, but
+#. the due date has passed.
+#: experimental/coursebuilder/views/review_dashboard.html:22
+msgid "The due date for submitting reviews has passed."
+msgstr "Ngày đến hạn nộp bài đánh giá đã qua."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:30
+#, python-format
+msgid "All reviews are due by %(review_due_date)s."
+msgstr "Tất cả các bản đánh giá đều đến hạn trước %(review_due_date)s."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:34
+msgid ""
+"In order to earn credit for this assignment, you must complete at least 1"
+" review by then."
+msgstr ""
+"Để đạt được điểm tín chỉ cho nhiệm vụ này, bạn phải hoàn tất ít nhất 1 "
+"bài đánh giá vào lúc đó."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:37
+#, python-format
+msgid ""
+"In order to earn credit for this assignment, you must complete at least "
+"%(review_min_count)d reviews by then."
+msgstr ""
+"Để đạt được điểm tín chỉ cho nhiệm vụ này, bạn phải hoàn tất ít nhất "
+"%(review_min_count)d bài đánh giá vào lúc đó."
+
+#. An item in a list of assignments.
+#: experimental/coursebuilder/views/review_dashboard.html:46
+#, python-format
+msgid "Assignment %(index)s"
+msgstr "Nhiệm vụ %(index)s"
+
+#. Text shown after an assignment whose review is still in draft state.
+#: experimental/coursebuilder/views/review_dashboard.html:52
+msgid "Draft"
+msgstr "Bản nháp"
+
+#. Button that a student can click to request a new assignment to review.
+#: experimental/coursebuilder/views/review_dashboard.html:69
+msgid "Review a new assignment"
+msgstr "Kiểm tra bài tập mới"
+
+#. Text shown after a student has asked for a new assignment to review when
+#. there are no assignments left to review.
+#: experimental/coursebuilder/views/review_dashboard.html:76
+msgid ""
+"Sorry, there are no new submissions available for you to review at this "
+"time."
+msgstr ""
+"Rất tiếc, chưa có nhiệm vụ mới nào được gửi để bạn đánh giá vào thời điểm"
+" này."
+
+#. Shown on the assignment submission confirmation page when the student has
+#. submitted a duplicate assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:16
+msgid ""
+"You have already submitted this assignment. Your latest attempt has not "
+"been saved."
+msgstr "Bạn đã gửi nhiệm vụ này. Lần thử cuối cùng của bạn chưa được lưu."
+
+#. Shown on the assignment submission confirmation page when the student has
+#. successfully submitted an assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:19
+msgid ""
+"Thank you for completing this assignment. Your work was successfully "
+"submitted."
+msgstr ""
+"Cảm ơn bạn đã hoàn tất nhiệm vụ này. Công việc của bạn đã được gửi thành "
+"công."
+
+#. Text shown on the assignment submission confirmation page after the student
+#. has submitted a peer-reviewed assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:23
+msgid "Review your peers' assignments by clicking on the button below."
+msgstr "Đánh giá nhiệm vụ của bạn bè bằng cách nhấp vào nút ở bên dưới."
+
+#. Text for the button on the assignment submission confirmation page.
+#. Shown after the student has submitted an assessment. This button allows the
+#. student to navigate back to the main course page.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:35
+#: experimental/coursebuilder/views/test_confirmation.html:31
+msgid "Back to Course page"
+msgstr "Quay lại trang Khóa học"
+
+#. Table header that states when a student enrolled in a course.
+#: experimental/coursebuilder/views/student_data_table.html:9
+msgid "Date enrolled"
+msgstr "Ngày đăng ký"
+
+#. Table header for the student's assessment scores.
+#: experimental/coursebuilder/views/student_data_table.html:28
+msgid "Assessment scores"
+msgstr "Điểm nhiệm vụ"
+
+#. Shown in the student profile page, next to an assignment title, as the link
+#. text for a self- or peer-reviewed assignment.
+#: experimental/coursebuilder/views/student_data_table.html:43
+msgid "View assignment"
+msgstr "Xem bài tập"
+
+#. Table header for the student's overall score.
+#: experimental/coursebuilder/views/student_data_table.html:56
+msgid "Overall course score"
+msgstr "Điểm tổng kết khóa học"
+
+#. Title of the course progress webpage.
+#: experimental/coursebuilder/views/student_profile.html:5
+msgid "Course Progress"
+msgstr "Tiến trình của khóa học"
+
+#. Title of the student progress page.
+#: experimental/coursebuilder/views/student_profile.html:17
+msgid "Student Progress"
+msgstr "Tiến trình của học viên"
+
+#. Shown on the student profile page.
+#: experimental/coursebuilder/views/student_profile.html:46
+msgid "To leave the course permanently, click on Unenroll"
+msgstr "Để rời khỏi khóa học vĩnh viễn, nhấp vào Hủy đăng ký"
+
+#. Button that allows the student to unenroll from a course.
+#: experimental/coursebuilder/views/student_profile.html:52
+msgid "Unenroll"
+msgstr "Hủy đăng ký"
+
+#. Text shown on progress page of course to redirect student to profile page.
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid "Manage course registration from your profile"
+msgstr "Quản lý việc đăng ký khóa học từ hồ sơ của bạn"
+
+#. Shown when the student profile cannot be found in the database.
+#: experimental/coursebuilder/views/student_profile.html:66
+msgid "Student profile not found ..."
+msgstr "Không tìm thấy hồ sơ học viên nào ..."
+
+#. Alt text for an embedded YouTube video player.
+#: experimental/coursebuilder/views/summary.html:27
+#: experimental/coursebuilder/views/unit.html:108
+msgid "YouTube Video Player"
+msgstr "Trình phát video của YouTube"
+
+#. Text shown after a student has unenrolled from a course. It is followed by a
+#. course name.
+#: experimental/coursebuilder/views/unenroll_confirmation.html:16
+msgid "You have been unenrolled from "
+msgstr "Bạn đã hủy đăng ký khỏi "
+
+#. Confirmation button, shown when a student has unenrolled from a course.
+#: experimental/coursebuilder/views/unenroll_confirmation.html:22
+msgid "OK"
+msgstr "OK"
+
+#. Shown when a student has asked to unenroll from a course. Followed by a
+#. course name.
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:16
+msgid "Are you sure you want to unenroll from "
+msgstr "Bạn có chắc chắn muốn hủy đăng ký khỏi "
+
+#. Response option to 'Are you sure you want to unenroll from COURSE_NAME'?
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:24
+msgid "Yes"
+msgstr "Có"
+
+#. Response option to 'Are you sure you want to unenroll from COURSE_NAME'?
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:28
+msgid "No"
+msgstr "Không"
+
+#. Button at the bottom of a lesson page offering the student the opportunity
+#. to grade his/her answers.
+#: experimental/coursebuilder/views/unit.html:97
+msgid "Grade Questions"
+msgstr "Câu hỏi phân loại"
+

@@ -1,0 +1,85 @@
+<link rel="stylesheet" type="text/css"
+    href="/modules/search/assets/search.css" />
+
+{% if module_enabled %}
+  <div class="gcb-index-status">
+    {% if indexed %}
+      <div>
+        The index was last updated on {{ last_updated }}.
+        Indexing the course took {{ index_info['indexing_time_secs'] }}
+        seconds.
+      </div>
+      <table>
+        <tr class="gcb-bold-row">
+          <td>Document Type</td>
+          <td>Number present</td>
+        </tr></b>
+        {% for type in index_info['doc_types'] | sort %}
+          <tr>
+            <td>{{ type }}</td>
+            <td>{{ index_info['doc_types'][type] }}</td>
+          </tr>
+        {% endfor %}
+        <tr class="gcb-bold-row">
+          <td>Total</td>
+          <td>{{ index_info['num_indexed_docs'] }}
+        </tr>
+      </table>
+    {% elif status_message %}
+      {{ status_message }}
+    {% endif %}
+  </div>
+
+  {% if not job_in_progress %}
+    <form id="gcb-index-course" action="dashboard?action=index_course" method="POST">
+      <input type="hidden" name="xsrf_token" value="{{index_course_xsrf_token}}">
+      <input type="hidden" name="incremental" value="true">
+      <button class="gcb-button">Index Course</button>
+    </form>
+
+    <form id="gcb-reindex-course" action="dashboard?action=index_course" method="POST">
+      <input type="hidden" name="xsrf_token" value="{{index_course_xsrf_token}}">
+      <input type="hidden" name="incremental" value="false">
+      <button class="gcb-button">Reindex Course</button>
+    </form>
+
+    <form id="gcb-clear-index" action="dashboard?action=clear_index" method="POST">
+      <input type="hidden" name="xsrf_token" value="{{clear_index_xsrf_token}}">
+      <button class="gcb-button">Clear Index</button>
+    </form>
+
+    <ul>
+      <li>
+        <strong>Index Course</strong> triggers an incremental indexing job in
+        which course documents are added to the search index if they have not been
+        recently indexed.
+      </li>
+      <li>
+        <strong>Reindex Course</strong> triggers a full indexing job in which
+        course documents are added to the search index regardless of whether or
+        not they were recently indexed.
+      </li>
+      Neither <strong>Reindex Course</strong> nor <strong>Index Course</strong>
+      removes course documents from the index, even if items have been removed
+      from the course.
+      <li>
+        <strong>Clear Index</strong> removes all documents from the index.
+      </li>
+    </ul>
+  {% endif %}
+  <p>
+    If <strong>gcb_can_index_automatically</strong> is enabled on the Admin >
+    Settings page, then <strong>Index Course</strong> will be run daily to keep
+    your courses' indices up to date.
+  </p>
+  <p>
+    To view more details about this course's search index, view the
+    <strong>Full Text Search</strong> tab of the App Engine dashboard with the
+    namespace of the current course.
+  </p>
+
+{% else %}
+  <div class="gcb-index-status">
+    The search module is currently disabled.
+  </div>
+{% endif %}

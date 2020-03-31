@@ -1,0 +1,987 @@
+# Tamil translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-08-14 10:19-0700\n"
+"PO-Revision-Date: 2013-08-14 10:20-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ta <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#. Error message that is shown to a student when they are using a browser that
+#. does not have JavaScript enabled.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:11
+msgid " JavaScript should be enabled to grade this question. "
+msgstr " இந்தக் கேள்வியை மதிப்பிடுவதற்கு JavaScript இயக்கப்பட்டிருக்க வேண்டும். "
+
+#. Alt text for image representing student progress.
+#. Text shown after an assignment whose review has been completed.
+#. Shown in the student profile page, next to an assessment title. States
+#. whether the assessment has been completed.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:19
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:20
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/course.html:50
+#: experimental/coursebuilder/views/course.html:77
+#: experimental/coursebuilder/views/course.html:78
+#: experimental/coursebuilder/views/course.html:119
+#: experimental/coursebuilder/views/course.html:120
+#: experimental/coursebuilder/views/lesson_navbar.html:15
+#: experimental/coursebuilder/views/lesson_navbar.html:16
+#: experimental/coursebuilder/views/lesson_navbar.html:62
+#: experimental/coursebuilder/views/lesson_navbar.html:63
+#: experimental/coursebuilder/views/review_dashboard.html:49
+#: experimental/coursebuilder/views/student_data_table.html:40
+msgid "Completed"
+msgstr "முடிந்தது"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:24
+#: experimental/coursebuilder/modules/assessment_tags/templates/base_assessment_tag.html:25
+#: experimental/coursebuilder/views/course.html:131
+#: experimental/coursebuilder/views/course.html:132
+#: experimental/coursebuilder/views/lesson_navbar.html:27
+#: experimental/coursebuilder/views/lesson_navbar.html:28
+#: experimental/coursebuilder/views/lesson_navbar.html:74
+#: experimental/coursebuilder/views/lesson_navbar.html:75
+msgid "Not yet started"
+msgstr "இன்னும் தொடங்கவில்லை"
+
+#. Displayed next to a question. Indicates that the question is worth 1 point.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:10
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:10
+msgid "1 point"
+msgstr "1 புள்ளி"
+
+#. Displayed next to a question to indicate its point value. In this particular
+#. message, the number of points will be plural.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:13
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:13
+#, python-format
+msgid "%(points)s points"
+msgstr "%(points)s புள்ளிகள்"
+
+#. Text on the button for checking a student's answer.
+#. Text on the button for checking an answer.
+#: experimental/coursebuilder/modules/assessment_tags/templates/mc_question.html:34
+#: experimental/coursebuilder/modules/assessment_tags/templates/question_group.html:20
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:41
+#: experimental/coursebuilder/views/base.html:24
+msgid " Check Answer "
+msgstr " பதிலைச் சரிபார் "
+
+#. Text on the button for requesting a hint to a question.
+#: experimental/coursebuilder/modules/assessment_tags/templates/sa_question.html:32
+msgid " Hint "
+msgstr " குறிப்பு "
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:27
+msgid "Explore Courses"
+msgstr "பாடத்திட்டங்களை அறிக"
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:32
+#: experimental/coursebuilder/views/base_course.html:62
+msgid "My Courses"
+msgstr "எனது பாடத்திட்டங்கள்"
+
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/base_explorer.html:37
+#: experimental/coursebuilder/views/base_course.html:67
+msgid "Profile"
+msgstr "சுயவிவரம்"
+
+#. Text for a button on the 'list of courses' page that takes students to a
+#. page where they can view score.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:16
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:49
+msgid "View score"
+msgstr "ஸ்கோரைக் காட்டு"
+
+#. Text for a button on the 'list of courses' page that takes students to the
+#. page for that course.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:21
+msgid "Go to course"
+msgstr "பாடத்திட்டத்திற்குச் செல்"
+
+#. Registration button on the main course page.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:26
+#: experimental/coursebuilder/views/registration_module.html:7
+#: experimental/coursebuilder/views/registration_module.html:15
+msgid "Register"
+msgstr "பதிவுசெய்"
+
+#. Shown to the student on the page that shows his/her list of courses, when
+#. he/she is not enrolled in courses.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:39
+msgid "You are not currently enrolled in any courses."
+msgstr "நீங்கள் தற்போது எந்தப் பாடத்திட்டங்களிலும் சேரவில்லை."
+
+#. Shown to the student on the page that shows his/her list of courses, when
+#. he/she wants to view all courses.
+#: experimental/coursebuilder/modules/course_explorer/views/course_explorer.html:45
+msgid "View course list."
+msgstr "பாடத்திட்டப் பட்டியலைக் காட்டு."
+
+#. Title of the student profile page. Followed by a student's name.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:5
+msgid "Student Profile for"
+msgstr "இவரின் மாணவர் சுயவிவரம்"
+
+#. Table header for the student's name.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:16
+#: experimental/coursebuilder/views/student_data_table.html:21
+msgid "Name"
+msgstr "பெயர்"
+
+#. Table header for the student's email address. This is a noun.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:21
+#: experimental/coursebuilder/views/student_data_table.html:15
+msgid "Email"
+msgstr "மின்னஞ்சல்"
+
+#. Heading on the profile page shown above table of registered courses.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:29
+msgid "Enrolled Courses"
+msgstr "சேர்ந்துள்ள பாடத்திட்டங்கள்"
+
+#. Text for representing student progress in a course.
+#. Navbar tab.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:44
+#: experimental/coursebuilder/views/base_course.html:74
+msgid "Progress"
+msgstr "முன்னேற்றம்"
+
+#. Text on the student profile page which on clicking will take you to unenroll
+#. course page.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:54
+msgid "Withdraw"
+msgstr "விலகு"
+
+#. Label for the input field that allows the student to change the name on
+#. his/her certificate.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:67
+#: experimental/coursebuilder/views/student_profile.html:29
+msgid "New Name"
+msgstr "புதிய பெயர்"
+
+#. Text for a button that allows the student to save changes to his/her name
+#. for the certificate.
+#: experimental/coursebuilder/modules/course_explorer/views/profile.html:78
+#: experimental/coursebuilder/views/student_profile.html:39
+msgid "Change Name"
+msgstr "பெயரை மாற்று"
+
+#. Displayed in search results; denotes a lesson link.
+#. Navigation breadcrumb.
+#: experimental/coursebuilder/modules/search/resources.py:341
+#: experimental/coursebuilder/views/activity.html:34
+#: experimental/coursebuilder/views/unit.html:38
+msgid "Lesson"
+msgstr "பாடம்"
+
+#. Displayed in search results; denotes an announcement link.
+#: experimental/coursebuilder/modules/search/resources.py:691
+msgid "Announcement"
+msgstr "அறிவிப்பு"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/modules/search/search.html:5
+msgid "Search"
+msgstr "தேடல்"
+
+#. Status message above search results.
+#: experimental/coursebuilder/modules/search/search.html:17
+#, python-format
+msgid "Results for \"%(query)s\""
+msgstr "\"%(query)s\" க்கான முடிவுகள்"
+
+#. The amount of time the search took, displayed above search results.
+#: experimental/coursebuilder/modules/search/search.html:20
+#, python-format
+msgid "Search took %(num_seconds)s seconds."
+msgstr "தேடலுக்கு %(num_seconds)s வினாடிகள் ஆனது."
+
+#. Link to the previous page.
+#: experimental/coursebuilder/modules/search/search.html:31
+msgid "Previous"
+msgstr "முந்தையது"
+
+#. Indicator for current page in search results.
+#: experimental/coursebuilder/modules/search/search.html:36
+#, python-format
+msgid "Page %(number)s of %(total)s"
+msgstr "பக்கம் %(number)s / %(total)s"
+
+#. Link to the next page.
+#: experimental/coursebuilder/modules/search/search.html:42
+msgid "Next"
+msgstr "அடுத்தது"
+
+#. The search returned no results.
+#: experimental/coursebuilder/modules/search/search.html:49
+#, python-format
+msgid "No results for \"%(query)s\""
+msgstr "\"%(query)s\" க்கான முடிவுகள் இல்லை"
+
+#. Message displayed on search results page when error occurs.
+#: experimental/coursebuilder/modules/search/search.py:75
+msgid "Search is currently unavailable."
+msgstr "தேடல் தற்போது கிடைக்கவில்லை."
+
+#. Message shown to the user telling them they have already submitted an item,
+#. and submitting a new item will overwrite their previous item.
+#: experimental/coursebuilder/modules/upload/templates/form.html:17
+msgid "You have already submitted; submit again to replace your previous entry."
+msgstr ""
+"ஏற்கனவே சமர்ப்பித்துள்ளீர்கள்; மீண்டும் சமர்ப்பிப்பது, உங்களின் முந்தைய "
+"உள்ளீட்டை மாற்றும்."
+
+#. Warning shown to the user telling them that the file they select for upload
+#. should be at most 1MB in size
+#: experimental/coursebuilder/modules/upload/templates/form.html:22
+msgid "Maximum file size is 1MB."
+msgstr "கோப்பின் அதிகபட்ச அளவு 1மெ.பை. ஆகும்."
+
+#. Shown when a user submits a file successfully.
+#: experimental/coursebuilder/modules/upload/templates/result.html:7
+msgid "Your file has been successfully uploaded."
+msgstr "உங்கள் கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது."
+
+#. Shown to tell the user an error occurred during submission.
+#: experimental/coursebuilder/modules/upload/templates/result.html:10
+msgid "An error occurred."
+msgstr "பிழை ஏற்பட்டது."
+
+#. Text of the link to take the user back to the previous page.
+#: experimental/coursebuilder/modules/upload/templates/result.html:15
+msgid "Return to the previous page."
+msgstr "முந்தைய பக்கத்திற்குச் செல்க."
+
+#. Text of the link to take the user back to the previous page so they can try
+#. submitting again.
+#: experimental/coursebuilder/modules/upload/templates/result.html:18
+msgid "Go back and try again."
+msgstr "திரும்பிச் சென்று மீண்டும் முயற்சிக்கவும்."
+
+#. Title of the webpage.
+#. Navigation breadcrumb.
+#: experimental/coursebuilder/views/activity.html:5
+#: experimental/coursebuilder/views/activity.html:29
+#: experimental/coursebuilder/views/unit.html:5
+#: experimental/coursebuilder/views/unit.html:35
+msgid "Unit"
+msgstr "பகுதி"
+
+#. Navigation breadcrumb.
+#. Title of the webpage.
+#. Navbar tab.
+#: experimental/coursebuilder/views/activity.html:25
+#: experimental/coursebuilder/views/base_course.html:7
+#: experimental/coursebuilder/views/base_course.html:39
+#: experimental/coursebuilder/views/unit.html:32
+msgid "Course"
+msgstr "படிப்பு"
+
+#. Navigation breadcrumb.
+#. Menu item.
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/lesson_navbar.html:85
+#: experimental/coursebuilder/views/lesson_navbar.html:89
+#: experimental/coursebuilder/views/lesson_navbar.html:121
+msgid "Activity"
+msgstr "செயல்பாடு"
+
+#. Header text for a unit page.
+#. A row in the course schedule.
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:142
+#: experimental/coursebuilder/views/preview.html:34
+#: experimental/coursebuilder/views/unit.html:44
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "பகுதி %(id)s - %(title)s"
+
+#. Text shown for a unit that has had no lessons added to it yet.
+#: experimental/coursebuilder/views/activity.html:55
+#: experimental/coursebuilder/views/unit.html:59
+msgid "This unit does not contain any lessons."
+msgstr "இந்தப் பகுதியில் பாடங்கள் எதுவுமில்லை."
+
+#. Link to a text version of a lesson video.
+#: experimental/coursebuilder/views/activity.html:84
+#: experimental/coursebuilder/views/unit.html:83
+msgid "Text Version"
+msgstr "உரைப் பதிப்பு"
+
+#. Text shown for a lesson that has not been made public.
+#: experimental/coursebuilder/views/activity.html:103
+#: experimental/coursebuilder/views/unit.html:125
+msgid "This lesson is not available."
+msgstr "இந்தப் பாடம் கிடைக்கவில்லை."
+
+#. Text on the navigation button at the end of a lesson page.
+#: experimental/coursebuilder/views/activity.html:114
+#: experimental/coursebuilder/views/unit.html:135
+msgid "Previous Page"
+msgstr "முந்தைய பக்கம்"
+
+#. Text on the navigation button at the end of a lesson page.
+#: experimental/coursebuilder/views/activity.html:120
+#: experimental/coursebuilder/views/unit.html:141
+msgid "Next Page"
+msgstr "அடுத்த பக்கம்"
+
+#. Text on the navigation button at the end of a lesson. It signals that the
+#. student has completed a unit (which is a series of lessons).
+#: experimental/coursebuilder/views/activity.html:123
+#: experimental/coursebuilder/views/unit.html:144
+msgid "End"
+msgstr "முடிவு"
+
+#. Title of the webpage.
+#. Navbar tab.
+#: experimental/coursebuilder/views/announcements.html:5
+#: experimental/coursebuilder/views/base_course.html:35
+msgid "Announcements"
+msgstr "அறிவிப்புகள்"
+
+#. Shown if the list of announcements is empty.
+#: experimental/coursebuilder/views/announcements.html:25
+msgid "No announcements yet."
+msgstr "இதுவரை எந்த அறிவிப்புகளும் இல்லை."
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/assessment.html:5
+msgid "Assessment"
+msgstr "மதிப்பீடு"
+
+#. Text shown to students when they visit an assignment page for which the due
+#. date has passed.
+#: experimental/coursebuilder/views/assessment.html:44
+#, python-format
+msgid ""
+"The due date for submitting this assignment has passed. It was due on "
+"%(submission_due_date)s."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்தைச் சமர்ப்பிப்பதற்கான நிலுவை தேதி முடிந்துவிட்டது."
+" இது %(submission_due_date)s அன்று முடிந்தது."
+
+#. Shown to the student on the assignment page.
+#: experimental/coursebuilder/views/assessment.html:49
+msgid "Due date for this assignment: "
+msgstr "இந்தப் பயிற்சிப் பாடத்திற்கான இறுதி நாள்: "
+
+#. Instructions to the student for a peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:59
+msgid ""
+"You may only submit this assignment once. After you submit it, the "
+"assignment will become read-only, and you will not be able to modify your"
+" answers. The answers you submit here will be reviewed by your peers."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்தை நீங்கள் ஒருமுறை மட்டுமே சமர்ப்பிக்கலாம். "
+"பயிற்சிப் பாடத்தைச் சமர்ப்பித்த பின், அது படிக்க மட்டுமேயான முறையில் "
+"மாறிவிடும், மேலும் உங்கள் பதில்களை உங்களால் திருத்த முடியாது. இங்கே "
+"நீங்கள் சமர்ப்பிக்கும் பதில்கள், உங்கள் சக நண்பர்களால் மதிப்பாய்வு "
+"செய்யப்படும்."
+
+#. Header text for a previously-submitted assignment.
+#: experimental/coursebuilder/views/assessment.html:73
+msgid "Submitted assignment"
+msgstr "சமர்ப்பித்த பயிற்சிப் பாடம்"
+
+#. Header text for the list of reviews received for an assignment.
+#: experimental/coursebuilder/views/assessment.html:88
+msgid "Reviews received"
+msgstr "பெற்றுள்ள மதிப்புரைகள்"
+
+#. Text shown below a student's peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:95
+msgid ""
+"After you have completed the required number of peer reviews for this "
+"assignment, the reviews you have received will appear here."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்திற்கு தேவைப்படும் சகநண்பர்களின் மதிப்புரைகளின் "
+"எண்ணிக்கையை முடித்தபின், நீங்கள் பெறும் மதிப்புரைகள் இங்கு தோன்றும்."
+
+#. Text shown on a button that allows the student to navigate from an
+#. assignment submission page to the peer review dashboard for that assignment.
+#: experimental/coursebuilder/views/assessment.html:102
+msgid "Go to the review dashboard"
+msgstr "மதிப்புரை டாஷ்போர்டிற்குச் செல்"
+
+#. Text shown below a student's peer-reviewed assignment.
+#: experimental/coursebuilder/views/assessment.html:107
+msgid "You have not received any peer reviews yet."
+msgstr "நீங்கள் இன்னும் சகநண்பர்களின் மதிப்புரைகளைப் பெறவில்லை."
+
+#. Text on the button for saving a draft answer.
+#: experimental/coursebuilder/views/assessment_html_content.html:26
+#: experimental/coursebuilder/views/base.html:40
+msgid " Save Draft "
+msgstr " வரைவைச் சேமி "
+
+#. Text on the button for submitting a peer review.
+#: experimental/coursebuilder/views/assessment_html_content.html:29
+#: experimental/coursebuilder/views/base.html:52
+msgid " Submit Review "
+msgstr " மதிப்புரையைச் சமர்ப்பி "
+
+#. Text on the button for checking a set of answers.
+#: experimental/coursebuilder/views/assessment_html_content.html:37
+#: experimental/coursebuilder/views/base.html:28
+msgid " Check Answers "
+msgstr " பதில்களைச் சரிபார் "
+
+#. Text on the button for submitting answers.
+#: experimental/coursebuilder/views/assessment_html_content.html:44
+#: experimental/coursebuilder/views/base.html:44
+msgid " Submit Answers "
+msgstr " பதில்களைச் சமர்ப்பி "
+
+#. Text on the button for showing the answer to a question.
+#: experimental/coursebuilder/views/base.html:32
+msgid " Skip and Show Answer "
+msgstr " தவிர்த்து பதிலைக் காட்டு "
+
+#. Text on the button for saving answers to a question.
+#: experimental/coursebuilder/views/base.html:36
+msgid " Save Answers "
+msgstr " பதில்களைச் சேமி "
+
+#. Text on the button for submitting a peer-reviewed assignment.
+#: experimental/coursebuilder/views/base.html:48
+msgid " Submit Assignment "
+msgstr " பயிற்சிப் பாடத்தைச் சமர்ப்பி "
+
+#. Text to prompt the student to select a multiple-choice answer.
+#: experimental/coursebuilder/views/base.html:56
+msgid " Please click one of the buttons for your answer. "
+msgstr " பதிலளிக்க பொத்தான்களில் ஒன்றைக் கிளிக் செய்யவும். "
+
+#. Text appearing after the student has answered all questions correctly.
+#: experimental/coursebuilder/views/base.html:60
+msgid " All your answers are correct! "
+msgstr " உங்கள் எல்லா பதில்களும் சரியானது! "
+
+#. Text appearing after the student has answered all questions correctly.
+#: experimental/coursebuilder/views/base.html:64
+msgid " Number of questions you answered correctly "
+msgstr " நீங்கள் சரியாக பதிலளித்த கேள்விகளின் எண்ணிக்கை "
+
+#. Text appearing after the student has submitted an assessment.
+#: experimental/coursebuilder/views/base.html:68
+msgid " You received a score on this assessment of "
+msgstr " இதற்கான இந்த மதிப்பீட்டில் ஸ்கோரைப் பெற்றுள்ளீர்கள் "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:72
+msgid " Here are lessons you could review to improve your score "
+msgstr " உங்கள் ஸ்கோரை அதிகரிக்க இங்கே கொடுக்கப்பட்டுள்ள பாடங்களைப் படிக்கலாம். "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:76
+msgid ""
+" Congratulations! Press the \\'Submit Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" வாழ்த்துகள்! உங்கள் தரத்தைச் சமர்ப்பிக்க \\'பதில்களைச் சமர்ப்பி\\' என்ற "
+"பொத்தானை அழுத்தவும். "
+
+#. Text appearing after the student has checked his/her answers to an
+#. assessment.
+#: experimental/coursebuilder/views/base.html:80
+msgid ""
+" Press the \\'Submit Answers\\' button below to save your scores. You can"
+" also edit your answers above before clicking \\'Submit Answers\\'. "
+msgstr ""
+" உங்கள் ஸ்கோர்களைச் சேமிக்க கீழே உள்ள \\'பதில்களைச் சமர்ப்பி\\' என்ற "
+"பொத்தானை அழுத்தவும். \\'பதில்களைச் சமர்ப்பி\\' என்பதை அழுத்துவதற்கு முன் "
+"மேலே உள்ள உங்கள் பதில்களைத் திருத்தலாம். "
+
+#. Text appearing in a confirmation dialog after the student has tried to
+#. submit an assignment.
+#: experimental/coursebuilder/views/base.html:84
+msgid " Are you sure you want to submit this assignment? "
+msgstr " இந்தப் பயிற்சிப் பாடத்தை நிச்சயமாக சமர்ப்பிக்க விரும்புகிறீர்களா? "
+
+#. Text appearing in a confirmation dialog after the student has tried to
+#. submit a review.
+#: experimental/coursebuilder/views/base.html:88
+msgid " Are you sure you want to submit this review? "
+msgstr " இந்த மதிப்புரையை நிச்சயமாக சமர்ப்பிக்க விரும்புகிறீர்களா? "
+
+#. Text appearing in a confirmation dialog after 'Are you sure you want to
+#. submit this assignment/review?'
+#: experimental/coursebuilder/views/base.html:92
+msgid " You cannot edit or delete it after you have done so. "
+msgstr " நீங்கள் இதைச் சமர்ப்பித்த பின்னர் அதை திருத்தவோ, நீக்கவோ முடியாது. "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:97
+msgid " Yes, the answer is correct. "
+msgstr " ஆம், சரியான பதில். "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:99
+msgid " No, the answer is incorrect. "
+msgstr " இல்லை, தவறான பதில். "
+
+#. Confirmation text for the answer given to a question by a student.
+#: experimental/coursebuilder/views/base.html:101
+msgid " The answer is partially correct. "
+msgstr " ஓரளவுக்கு சரியான பதில். "
+
+#. Text appearing at the bottom of a lesson page after the student asks for it
+#. to be graded.
+#: experimental/coursebuilder/views/base.html:104
+msgid " Your score is: "
+msgstr " உங்கள் ஸ்கோர்: "
+
+#. Text shown in parentheses next to the student's email address at the
+#. top-right of all course pages, if the student is logged in but not
+#. registered for the course he/she is currently browsing.
+#: experimental/coursebuilder/views/base.html:170
+msgid "Not registered"
+msgstr "பதிவு செய்யவில்லை"
+
+#. Navbar text.
+#: experimental/coursebuilder/views/base.html:175
+msgid "Logout"
+msgstr "வெளியேறு"
+
+#. Navbar text.
+#: experimental/coursebuilder/views/base.html:181
+msgid "Login"
+msgstr "உள்நுழை"
+
+#. Link at the bottom of each page to the privacy and 'Terms and Conditions'
+#. pages.
+#: experimental/coursebuilder/views/base.html:218
+msgid "Privacy & Terms"
+msgstr "தனியுரிமை & விதிமுறைகள்"
+
+#. Navbar tab.
+#. Title of the webpage.
+#: experimental/coursebuilder/views/base_course.html:44
+#: experimental/coursebuilder/views/forum.html:5
+msgid "Forum"
+msgstr "மன்றம்"
+
+#. Navbar tab.
+#: experimental/coursebuilder/views/base_course.html:79
+msgid "Registration"
+msgstr "பதிவுசெய்தல்"
+
+#. This is shown to the student in a popup after registration.
+#: experimental/coursebuilder/views/course.html:6
+msgid ""
+"Thank you for registering for the course. Click the Announcements tab for"
+" important information."
+msgstr ""
+"பாடத்திட்டத்திற்காகப் பதிவுசெய்ததற்கு நன்றி. முக்கியமான தகவலுக்கு "
+"அறிவிப்புகள் தாவலைக் கிளிக் செய்யவும்."
+
+#. This is shown to the student in a popup if registrations for the course are
+#. not open.
+#: experimental/coursebuilder/views/course.html:12
+msgid "Registrations for this course are not open."
+msgstr "இந்தப் பாடத்திட்டத்திற்காக பதிவுசெய்வது இன்னும் ஆரம்பமாகவில்லை."
+
+#. This should be interpreted as a noun. It is the title for the course
+#. schedule on the main contents page.
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/preview.html:22
+msgid "Schedule"
+msgstr "திட்ட அட்டவணை"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/course.html:56
+#: experimental/coursebuilder/views/course.html:89
+#: experimental/coursebuilder/views/course.html:90
+msgid "Not yet submitted"
+msgstr "இன்னும் சமர்ப்பிக்கவில்லை"
+
+#. Alt text for image representing student progress.
+#: experimental/coursebuilder/views/course.html:83
+#: experimental/coursebuilder/views/course.html:84
+#: experimental/coursebuilder/views/course.html:125
+#: experimental/coursebuilder/views/course.html:126
+#: experimental/coursebuilder/views/lesson_navbar.html:21
+#: experimental/coursebuilder/views/lesson_navbar.html:22
+#: experimental/coursebuilder/views/lesson_navbar.html:68
+#: experimental/coursebuilder/views/lesson_navbar.html:69
+msgid "In progress"
+msgstr "செயலிலுள்ளது"
+
+#. Displayed in the course contents page. Indicates a page to which students
+#. can go to review other students' assignments.
+#. Text for the button on the assignment submission confirmation page.
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/course.html:107
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:30
+msgid "Review peer assignments"
+msgstr "சக நண்பர்களின் பயிற்சிப் பாடங்களை மதிப்பாய்வு செய்"
+
+#. Error text for when a student has submitted a review after the deadline.
+#: experimental/coursebuilder/views/error.html:16
+#, python-format
+msgid ""
+"Your review has not been saved, because it was submitted on %(time_now)s."
+" The deadline for submitting reviews was %(review_due_date)s."
+msgstr ""
+"உங்கள் மதிப்புரை சேமிக்கப்படவில்லை, ஏனெனில் இது %(time_now)s மணிக்குச் "
+"சமர்ப்பிக்கப்பட்டுள்ளது. மதிப்புரைகளைச் சமர்ப்பிப்பதற்கான காலக்கெடு "
+"%(review_due_date)s ஆகும்."
+
+#. Error text for when a student submits an assignment after the deadline.
+#: experimental/coursebuilder/views/error.html:21
+#, python-format
+msgid ""
+"Your assignment has not been saved, because it was submitted on "
+"%(time_now)s. The deadline for submitting assignments was "
+"%(submission_due_date)s."
+msgstr ""
+"உங்கள் பயிற்சிப் பாடம் சேமிக்கப்படவில்லை, ஏனெனில் இது %(time_now)s "
+"மணிக்குச் சமர்ப்பிக்கப்பட்டுள்ளது. பயிற்சிப் பாடங்களைச் சமர்ப்பிப்பதற்கான"
+" காலக்கெடு %(submission_due_date)s ஆகும்."
+
+#. Error text for when a student tries to get a new assignment to review before
+#. submitting his/her own assignment.
+#: experimental/coursebuilder/views/error.html:26
+msgid ""
+"You must submit the assignment for this unit before you can request new "
+"assignments to review."
+msgstr ""
+"புதிய பயிற்சிப் பாடங்களை மதிப்புரைக்கு கோருவதற்கு முன்னர் இந்தப் "
+"பகுதிக்கான பயிற்சிப் பாடத்தை நீங்கள் சமர்ப்பிக்க வேண்டும்."
+
+#. Error text for when a student tries to request a new assignment to review
+#. after the review submission deadline.
+#: experimental/coursebuilder/views/error.html:31
+msgid ""
+"The deadline for submitting reviews has already passed, so you cannot "
+"request a new assignment to review."
+msgstr ""
+"மதிப்புரைகளைச் சமர்ப்பிப்பதற்கான காலக்கெடு ஏற்கனவே முடிந்துவிட்டது, "
+"அதனால் மதிப்புரை செய்வதற்கு உங்களால் புதிய பயிற்சிப் பாடத்தைக் "
+"கோரமுடியாது."
+
+#. Error text for when a student requests a new assignment to review, but needs
+#. to complete more peer reviews first before a new review can be allocated to
+#. him/her.
+#: experimental/coursebuilder/views/error.html:36
+msgid "You must complete all assigned reviews before you can request a new one."
+msgstr ""
+"புதிய ஒன்றைக் கோருவதற்கு முன்பு ஒதுக்கப்பட்ட எல்லா மதிப்புரைகளையும் "
+"நீங்கள் முடிக்க வேண்டும்."
+
+#. Error text for when a student has already submitted a review, and tries to
+#. submit it again.
+#: experimental/coursebuilder/views/error.html:41
+msgid "You have already submitted this review. Your latest review was not saved."
+msgstr ""
+"நீங்கள் ஏற்கனவே இந்த மதிப்புரையைச் சமர்ப்பித்துள்ளீர்கள். உங்கள் "
+"சமீபத்திய மதிப்புரைச் சேமிக்கப்படவில்லை."
+
+#. Text appearing just before an input field containing a student's answer.
+#: experimental/coursebuilder/views/readonly_assessment.html:31
+#: experimental/coursebuilder/views/readonly_assessment.html:35
+msgid "Answer:"
+msgstr "பதில்:"
+
+#. A question in the registration form.
+#: experimental/coursebuilder/views/register.html:25
+msgid "What is your name?"
+msgstr "உங்கள் பெயர் என்ன?"
+
+#. Button at the end of the registration form for a course.
+#: experimental/coursebuilder/views/register.html:41
+msgid "Enroll"
+msgstr "பதிவுசெய்"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/review.html:5
+msgid "Review"
+msgstr "மதிப்புரை"
+
+#. Link to return to the list of peer reviews.
+#: experimental/coursebuilder/views/review.html:43
+msgid "Back to the review dashboard."
+msgstr "மதிப்புரை டாஷ்போர்டிற்குச் செல்."
+
+#. Text shown to students when they visit a review submission page for which
+#. the due date has passed.
+#: experimental/coursebuilder/views/review.html:51
+#, python-format
+msgid ""
+"The due date for submitting this review has passed. It was due on "
+"%(review_due_date)s."
+msgstr ""
+"இந்த மதிப்புரையைச் சமர்ப்பிப்பதற்கான நிலுவை தேதி முடிந்துவிட்டது. இது "
+"%(review_due_date)s அன்று முடிந்தது."
+
+#. Shown to a student who is asked to complete a peer review of another
+#. student's assignment.
+#: experimental/coursebuilder/views/review.html:56
+msgid "Due date for this review: "
+msgstr "இந்த மதிப்புரைக்கான இறுதி நாள்: "
+
+#. Instructions to a student who is asked to complete a peer review of another
+#. student's assignment.
+#: experimental/coursebuilder/views/review.html:65
+msgid ""
+"The scores and comments you submit here will be viewed by your peers. "
+"Once you submit your review, you may not edit it."
+msgstr ""
+"இங்கே நீங்கள் சமர்ப்பிக்கும் ஸ்கோர்களையும், கருத்துகளையும் உங்கள் சக "
+"நண்பர்கள் பார்ப்பார்கள். உங்கள் மதிப்புரையைச் சமர்ப்பித்த பின், உங்களால் "
+"அதைத் திருத்த முடியாது."
+
+#. Header text for a reviewed assignment.
+#: experimental/coursebuilder/views/review.html:73
+msgid "Reviewed assignment"
+msgstr "மதிப்பாய்வு செய்யப்பட்ட பயிற்சிப் பாடம்"
+
+#. Header text for an assignment that a student still needs to review.
+#: experimental/coursebuilder/views/review.html:76
+msgid "Assignment to review"
+msgstr "மதிப்பாய்வு செய்ய வேண்டிய பயிற்சிப் பாடம்"
+
+#. Header text for a review the student has previously submitted.
+#: experimental/coursebuilder/views/review.html:95
+msgid "Submitted review"
+msgstr "சமர்ப்பித்த மதிப்புரை"
+
+#. Header text for a review form that a student has to complete when reviewing
+#. another student's assignment.
+#: experimental/coursebuilder/views/review.html:109
+msgid "Review form"
+msgstr "மதிப்புரை படிவம்"
+
+#. Shown as confirmation to a reviewer that his/her review draft has been
+#. saved.
+#: experimental/coursebuilder/views/review_confirmation.html:15
+msgid "Your review has been saved."
+msgstr "உங்கள் மதிப்புரை சேமிக்கப்பட்டது."
+
+#. Shown as confirmation to a reviewer that his/her review draft has been
+#. submitted.
+#: experimental/coursebuilder/views/review_confirmation.html:18
+msgid "Your review has been submitted successfully."
+msgstr "உங்கள் மதிப்புரை வெற்றிகரமாகச் சமர்ப்பிக்கப்பட்டது."
+
+#. Text for the button shown on the review submission confirmation page that
+#. allows the student to return to the list of reviews.
+#: experimental/coursebuilder/views/review_confirmation.html:25
+msgid "Back to the review dashboard"
+msgstr "மதிப்புரை டாஷ்போர்டிற்குச் செல்"
+
+#. Title of the webpage.
+#: experimental/coursebuilder/views/review_dashboard.html:5
+msgid "Review Dashboard"
+msgstr "மதிப்புரை டாஷ்போர்டு"
+
+#. Header text for a list of assignments that can be reviewed by the student.
+#: experimental/coursebuilder/views/review_dashboard.html:16
+msgid "Assignments for your review"
+msgstr "நீங்கள் மதிப்பாய்வு செய்ய வேண்டிய பயிற்சிப் பாடங்கள்"
+
+#. Text shown to students when they visit their list of reviews to be done, but
+#. the due date has passed.
+#: experimental/coursebuilder/views/review_dashboard.html:22
+msgid "The due date for submitting reviews has passed."
+msgstr "மதிப்புரைகளைச் சமர்ப்பிப்பதற்கான நிலுவை தேதி முடிந்துவிட்டது."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:30
+#, python-format
+msgid "All reviews are due by %(review_due_date)s."
+msgstr "எல்லா மதிப்புரைகளுக்கும் %(review_due_date)s இறுதி நாளாகும்."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:34
+msgid ""
+"In order to earn credit for this assignment, you must complete at least 1"
+" review by then."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்திற்கான கிரெடிட்டைப் பெறுவதற்கு, பாடத்திட்ட "
+"நேரத்திற்குள் 1 மதிப்புரையாவது நீங்கள் முடித்திருக்க வேண்டும்."
+
+#. Instructions for a student being asked to do a review.
+#: experimental/coursebuilder/views/review_dashboard.html:37
+#, python-format
+msgid ""
+"In order to earn credit for this assignment, you must complete at least "
+"%(review_min_count)d reviews by then."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்திற்கான கிரெடிட்டைப் பெறுவதற்கு, பாடத்திட்ட "
+"நேரத்திற்குள் %(review_min_count)d மதிப்புரைகளையாவது நீங்கள் "
+"முடித்திருக்க வேண்டும்."
+
+#. An item in a list of assignments.
+#: experimental/coursebuilder/views/review_dashboard.html:46
+#, python-format
+msgid "Assignment %(index)s"
+msgstr "பயிற்சிப் பாடம் %(index)s"
+
+#. Text shown after an assignment whose review is still in draft state.
+#: experimental/coursebuilder/views/review_dashboard.html:52
+msgid "Draft"
+msgstr "வரைவு"
+
+#. Button that a student can click to request a new assignment to review.
+#: experimental/coursebuilder/views/review_dashboard.html:69
+msgid "Review a new assignment"
+msgstr "புதிய பயிற்சிப் பாடத்தை மதிப்புரை செய்"
+
+#. Text shown after a student has asked for a new assignment to review when
+#. there are no assignments left to review.
+#: experimental/coursebuilder/views/review_dashboard.html:76
+msgid ""
+"Sorry, there are no new submissions available for you to review at this "
+"time."
+msgstr ""
+"மன்னிக்கவும், தற்போது நீங்கள் மதிப்பாய்வு செய்வதற்குப் புதிய "
+"சமர்ப்பிப்புகள் எதுவுமில்லை."
+
+#. Shown on the assignment submission confirmation page when the student has
+#. submitted a duplicate assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:16
+msgid ""
+"You have already submitted this assignment. Your latest attempt has not "
+"been saved."
+msgstr ""
+"நீங்கள் ஏற்கனவே இந்தப் பயிற்சிப் பாடத்தைச் சமர்ப்பித்துள்ளீர்கள். உங்கள் "
+"சமீபத்திய முயற்சி சேமிக்கப்படவில்லை."
+
+#. Shown on the assignment submission confirmation page when the student has
+#. successfully submitted an assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:19
+msgid ""
+"Thank you for completing this assignment. Your work was successfully "
+"submitted."
+msgstr ""
+"இந்தப் பயிற்சிப் பாடத்தை நிறைவுசெய்ததற்கு நன்றி. உங்கள் பணி வெற்றிகரமாகச்"
+" சமர்ப்பிக்கப்பட்டது."
+
+#. Text shown on the assignment submission confirmation page after the student
+#. has submitted a peer-reviewed assignment.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:23
+msgid "Review your peers' assignments by clicking on the button below."
+msgstr ""
+"கீழே உள்ள பொத்தானைக் கிளிக் செய்வதன் மூலம் உங்கள் சக நண்பர்களின் "
+"பயிற்சிப் பாடங்களை மதிப்பாய்வு செய்யவும்."
+
+#. Text for the button on the assignment submission confirmation page.
+#. Shown after the student has submitted an assessment. This button allows the
+#. student to navigate back to the main course page.
+#: experimental/coursebuilder/views/reviewed_assessment_confirmation.html:35
+#: experimental/coursebuilder/views/test_confirmation.html:31
+msgid "Back to Course page"
+msgstr "படிப்புப் பக்கத்திற்குச் செல்"
+
+#. Table header that states when a student enrolled in a course.
+#: experimental/coursebuilder/views/student_data_table.html:9
+msgid "Date enrolled"
+msgstr "பதிவுசெய்த தேதி"
+
+#. Table header for the student's assessment scores.
+#: experimental/coursebuilder/views/student_data_table.html:28
+msgid "Assessment scores"
+msgstr "மதிப்பீடு ஸ்கோர்கள்"
+
+#. Shown in the student profile page, next to an assignment title, as the link
+#. text for a self- or peer-reviewed assignment.
+#: experimental/coursebuilder/views/student_data_table.html:43
+msgid "View assignment"
+msgstr "பயிற்சிப் பாடத்தைக் காட்டு"
+
+#. Table header for the student's overall score.
+#: experimental/coursebuilder/views/student_data_table.html:56
+msgid "Overall course score"
+msgstr "ஒட்டுமொத்த படிப்பின் ஸ்கோர்"
+
+#. Title of the course progress webpage.
+#: experimental/coursebuilder/views/student_profile.html:5
+msgid "Course Progress"
+msgstr "பாடத்திட்டத்தின் செயல்நிலை"
+
+#. Title of the student progress page.
+#: experimental/coursebuilder/views/student_profile.html:17
+msgid "Student Progress"
+msgstr "மாணவரின் முன்னேற்றம்"
+
+#. Shown on the student profile page.
+#: experimental/coursebuilder/views/student_profile.html:46
+msgid "To leave the course permanently, click on Unenroll"
+msgstr "படிப்பிலிருந்து நிரந்தரமாக வெளியேற, பதிவுநீக்கு என்பதைக் கிளிக் செய்யவும்"
+
+#. Button that allows the student to unenroll from a course.
+#: experimental/coursebuilder/views/student_profile.html:52
+msgid "Unenroll"
+msgstr "பதிவுநீக்கு"
+
+#. Text shown on progress page of course to redirect student to profile page.
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid "Manage course registration from your profile"
+msgstr "உங்கள் சுயவிவரத்திலிருந்துப் பாடத்திட்டத்தின் பதிவுசெய்தலை நிர்வகிக்கவும்"
+
+#. Shown when the student profile cannot be found in the database.
+#: experimental/coursebuilder/views/student_profile.html:66
+msgid "Student profile not found ..."
+msgstr "மாணவர் சுயவிவரம் காணப்படவில்லை ..."
+
+#. Alt text for an embedded YouTube video player.
+#: experimental/coursebuilder/views/summary.html:27
+#: experimental/coursebuilder/views/unit.html:108
+msgid "YouTube Video Player"
+msgstr "YouTube வீடியோ பிளேயர்"
+
+#. Text shown after a student has unenrolled from a course. It is followed by a
+#. course name.
+#: experimental/coursebuilder/views/unenroll_confirmation.html:16
+msgid "You have been unenrolled from "
+msgstr "இதிலிருந்து பதிவுநீக்கம் செய்யப்பட்டீர்கள் "
+
+#. Confirmation button, shown when a student has unenrolled from a course.
+#: experimental/coursebuilder/views/unenroll_confirmation.html:22
+msgid "OK"
+msgstr "சரி"
+
+#. Shown when a student has asked to unenroll from a course. Followed by a
+#. course name.
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:16
+msgid "Are you sure you want to unenroll from "
+msgstr "இதிலிருந்து பதிவுநீக்கம் பெற நிச்சயமாக விரும்புகிறீர்களா "
+
+#. Response option to 'Are you sure you want to unenroll from COURSE_NAME'?
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:24
+msgid "Yes"
+msgstr "ஆம்"
+
+#. Response option to 'Are you sure you want to unenroll from COURSE_NAME'?
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:28
+msgid "No"
+msgstr "இல்லை"
+
+#. Button at the bottom of a lesson page offering the student the opportunity
+#. to grade his/her answers.
+#: experimental/coursebuilder/views/unit.html:97
+msgid "Grade Questions"
+msgstr "தரநிலைக் கேள்விகள்"
+

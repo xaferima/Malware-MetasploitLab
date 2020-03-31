@@ -1,0 +1,41 @@
+<h3>Question Score -- Results</h3>
+
+{% if stats_calculated %}
+
+  <!-- TODO(mgainer): Make pretty later.  For now, proof-of-concept.  -->
+  {% if not stats %}
+    <p>No answers to questions have been recorded for this course.</p>
+  {% else %}
+    <ul>
+      <table>
+        <tr>
+          <th>Question ID</th>
+          <th>Number of Responses</th>
+          <th>Average Score</th>
+          <th>Median Score</th>
+        </tr>
+      {% for stat in stats %}
+        <tr>
+          <td>{{ stat[0] }}</td>
+          <td align="right">{{ stat[1].num_answers }}</td>
+          <td align="right">{{ stat[1].average }}</td>
+          <td align="right">{{ stat[1].median }}</td>
+        </tr>
+      {% endfor %}
+      </table>
+    </ul>
+  {% endif %}
+{% endif %}
+
+{% if errors %}
+  <b>Errors:</b>
+  <ul>
+    {% for error in errors %}
+      <li>{{ error }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{{ update_message }}
+
+<br><br>

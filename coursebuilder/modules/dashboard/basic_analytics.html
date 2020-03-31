@@ -1,0 +1,33 @@
+<h3>Enrollment Statistics</h3>
+
+{% if stats_calculated %}
+  <ul>
+    <li>previously enrolled: {{ unenrolled }}</li>
+    <li>currently enrolled: {{ enrolled }}</li>
+    <li>total: {{ unenrolled + enrolled }}</li>
+  </ul>
+
+  <ul>
+    {% for unit in scores %}
+      <li>
+        {{ unit['key'] }}: completed {{ unit['completed'] }}, average score {{ unit['avg'] }}
+      </li>
+    {% endfor %}
+    <li>
+      total: {{ total_records }}
+    </li>
+  </ul>
+{% endif %}
+
+{% if errors %}
+  <b>Errors:</b>
+  <ul>
+    {% for error in errors %}
+      <li>{{ error }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{{ update_message }}
+
+<br><br>
